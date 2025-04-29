@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Separator } from "./ui/separator";
 import { FaAngleRight } from "react-icons/fa6";
+import Link from "next/link";
 
 interface Vegetables {
   VegetableId: number;
@@ -22,8 +23,8 @@ const Vegetables = () => {
 
   const fetchVegetables = async () => {
     try {
-      const response = await axios.get("https://azamsharp.com/vegetables.json");
-      console.log(response.data);
+      const response = await axios.get("api/vegetables/get_all_vegetables");
+      // console.log(response.data);
       if (response.data.length > 0) {
         setVegetables(response.data);
       }
@@ -58,7 +59,11 @@ const Vegetables = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {filteredVegetables.map((vegetable, index) => (
-          <div key={index} className="flex items-center gap-4">
+          <Link
+            href={`/vegetables/${vegetable.VegetableId}`}
+            key={index}
+            className="flex items-center gap-4"
+          >
             <Image
               src={vegetable.ThumbnailImage}
               alt={vegetable.Name}
@@ -81,7 +86,7 @@ const Vegetables = () => {
               </div>
               <Separator className="my-4" />
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
