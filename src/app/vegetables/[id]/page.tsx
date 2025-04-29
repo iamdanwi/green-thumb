@@ -45,11 +45,13 @@ const Info = ({ label, value }: { label: string; value: string }) => (
   </div>
 );
 
-const VegetablePage = async ({ params }: { params: { id: string } }) => {
+const VegetablePage = async (_props: { params: Promise<{ id: string }> }) => {
+  const { id } = await _props.params;
+
   const res = await fetch("https://azamsharp.com/vegetables.json");
   const data: Vegetables[] = await res.json();
 
-  const vegetable = data.find((veg) => veg.VegetableId === parseInt(params.id));
+  const vegetable = data.find((veg) => veg.VegetableId === parseInt(id));
 
   if (!vegetable) {
     return <div>Vegetable not found</div>;
