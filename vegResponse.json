@@ -1,0 +1,44 @@
+{
+  "VegetableId": 4,
+  "VegetableCode": "001",
+  "CatalogId": 14,
+  "Name": "Carrot",
+  "Description": "A versatile root vegetable commonly orange, but also available in purple, red, yellow, and white varieties. Carrots are known for their sweet flavor and high beta-carotene content, making them a nutritious addition to meals.",
+  "ThumbnailImage": "https://www.azamsharp.com/images/carrot.png",
+  "SeedDepth": "1/4-1/2\" (6-13 mm)",
+  "GerminationSoilTemp": "75 F (24 C)",
+  "DaysToGermination": 6,
+  "SowIndoors": "Not recommended",
+  "SowOutdoors": "Spring to summer",
+  "PhRange": "5.5-6.5",
+  "GrowingSoilTemp": "60-70 F (16-21 C)",
+  "SpacingBeds": "2\" (5 cm)",
+  "Watering": "Moderate",
+  "Light": "Full sun",
+  "GoodCompanions": "Bean, cabbage, chive, leaf lettuce",
+  "BadCompanions": "Celery, dill, parsnip",
+  "SowingDescription": "\r",
+  "GrowingDescription": "The seeds will start to sprout in couple of weeks. When watering the seeds make sure to avoid getting the leaves wet. The wetting of leaves can result in burning holes into the leaves from the sun.",
+  "HarvestDescription": "Harvest the carrots when bit that sticks out of the ground is the diameter of a quarter. Dig them up carefully so as not to damage the root.",
+  "Active": null,
+  "Season": "Spring,Fall,Summer,Winter",
+  "DaysToHarvestSeeds": 90,
+  "DaysToHarvestSeedlings": 70,
+  "HealthBenefits": "Rich in beta-carotene, carrots promote eye health, boost immunity, and support healthy skin.",
+  "Pests": [
+    {
+      "name": "Carrot Fly",
+      "description": "The carrot fly (Psila rosae) is a small, black-bodied insect with an orange head and legs. It is a common pest affecting carrots, parsnips, celery, and other Apiaceae plants. The larvae burrow into the roots of these plants, causing damage that results in stunted growth, discoloration, and increased susceptibility to secondary infections.",
+      "symptoms": "Rust-colored tunnels in the roots, yellowing and wilting foliage, and cracking of roots. Severely infested plants may rot and fail to thrive.",
+      "treatment": "Use fine mesh netting to cover plants and prevent adult flies from laying eggs. Practice crop rotation to disrupt the lifecycle of the pest. Remove and destroy infested plants immediately to prevent the spread of larvae. Companion planting with strong-smelling plants such as onions or garlic can also deter carrot flies.",
+      "photo": "https://www.azamsharp.com/images/carrotfly.png"
+    },
+    {
+      "name": "Aphids",
+      "description": "Aphids are tiny, soft-bodied insects that can vary in color, including green, yellow, brown, red, or black. They feed on plant sap by piercing leaves and stems with their mouthparts. Aphids are a common pest in gardens and farms, often forming large colonies on new growth.",
+      "symptoms": "Infested plants may show curling or yellowing leaves, stunted growth, and sticky honeydew residue on foliage. The honeydew can attract ants and lead to the development of sooty mold on the plant surfaces.",
+      "treatment": "Introduce natural predators such as ladybugs and lacewings to control aphid populations. Spray plants with a strong jet of water to dislodge the insects. Apply neem oil or insecticidal soap for organic pest management. Remove and destroy heavily infested parts of the plant to prevent further spread.",
+      "photo": "https://www.azamsharp.com/images/aphids.png"
+    }
+  ]
+}
