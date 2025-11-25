@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Green Thumb
 
-## Getting Started
+Green Thumb is a lightweight plant-care companion that helps you organize and care for your houseplants. Track watering, fertilizing, and light requirements, attach photos and notes, and get reminders so your plants stay happy and healthy.
 
-First, run the development server:
+- Status: Draft (update to reflect actual implementation and features)
+- Author: iamdanwi
 
+## Features
+
+- Create and manage plant profiles (name, species, photos, notes)
+- Track watering, fertilizing, and sunlight needs with schedules
+- Reminders for upcoming care tasks
+- Notes and photo support per plant
+- Search and grouping of plants by room, species, or care schedule
+
+## Demo / Screenshot
+
+Add a screenshot or GIF here to show the app in action.
+
+## Quick Start
+
+These are generic instructions — please adapt to the actual stack used in the repository (Node.js, Python, Flutter, etc.).
+
+Prerequisites
+- Node.js >= 14 and npm (if the project uses Node)
+- Python 3.8+ and pip (if the project uses Python)
+- Alternatively, check the repo for a specific stack and follow those instructions
+
+Clone
+```bash
+git clone https://github.com/iamdanwi/green-thumb.git
+cd green-thumb
+```
+
+Install dependencies (example for Node.js)
+```bash
+npm install
+```
+
+Run (example)
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Testing (if available)
+```bash
+npm test
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Production build (if applicable)
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configuration
 
-## Learn More
+Describe environment variables, config files, or database setup here. Example:
+- Create a `.env` file from `.env.example`
+- Set `DATABASE_URL`, `NODE_ENV`, `PORT`, etc.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Include a short overview of the repository structure here:
+- /src — application source code
+- /public — static assets
+- /docs — additional documentation
+- README.md — this file
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Adjust based on the actual repo layout.
 
-## Deploy on Vercel
+## Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Planned improvements:
+- Mobile support (PWA / native)
+- Sync / cloud backup of plant data
+- Import / export plant lists
+- Smart scheduling using plant metadata or weather integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome!
+
+- Open an issue for bugs or feature requests
+- Create a branch from `main`: `git checkout -b feat/your-feature`
+- Add tests where appropriate
+- Open a pull request describing your changes
+
+See CONTRIBUTING.md (create one if missing) for more details.
+
+## License
+
+Add a LICENSE file to this repository and reference it here (for example, MIT). If you already have a license file, replace this section with the proper license badge and text.
+
+## Contact
+
+Created and maintained by iamdanwi. Open an issue or a pull request for questions, ideas, or improvements.
